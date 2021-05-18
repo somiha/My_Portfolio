@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family:"Lucida Console", "Courier New", monospace,sans-serif;
+    background-color: #FFFBF3;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    overflow-y: scroll;
+    display: block;
+}
+.topnav a{
+    float: left;
+    color:#1D2951;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto;
+    width: 60px;
+}
+.topnav a:hover{
+    font-weight: 800;
+}
+.topnav a.active{
+    font-weight: 800;
+}
+.topnav-right {
+    float: right;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    position: static;
+}
+.name{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:250px;
+    height:90px;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:170px;
+    height:90px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -50px;   
+}
+.contact-form{
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #C28285;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #C28285;
+}
+input[type=submit] {
+    background-color: #C28285;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: -40px;
+}
+
+input[type=submit]:hover {
+    background-color: #1D2951;
+    color: #fff;
+}
+.address{
+    float: right;
+    margin-top: 60px;
+    margin-right: -100px;
+    margin-bottom: 140px;
+}
+.address a{
+    text-decoration: none;
+    color: #C28285;
+}
+.address a:hover{
+    color: #1D2951;
+}
